@@ -13,7 +13,7 @@ if not api_key:
 
 client = genai.Client(api_key=api_key)
 
-MODEL = "gemini-3.1-flash"
+MODEL = "gemini-3.5-flash"
 
 SYSTEM_PROMPT = """
 You are CyberGuard AI, a cybersecurity awareness chatbot.
